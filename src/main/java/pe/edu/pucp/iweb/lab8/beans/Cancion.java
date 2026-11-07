@@ -1,11 +1,5 @@
 package pe.edu.pucp.iweb.lab8.beans;
 
-import com.google.protobuf.TextFormatParseInfoTree;
-
-import javax.swing.text.JTextComponent;
-import javax.swing.text.StringContent;
-import java.text.ParseException;
-
 /**
  * Ejercicio 2: bean Cancion.
  */
@@ -65,7 +59,7 @@ public class Cancion {
         return genero;
     }
 
-    public void setGenero(Genero genero) {
+    public void setGenero(String genero) {
         this.genero = genero;
     }
 
